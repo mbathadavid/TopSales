@@ -1,0 +1,898 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css2/w3.css">
+<link rel="stylesheet" type="text/css" href="fontawe/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="customna.css">
+	<title>Home Page</title>
+ <style type="text/css">
+ #loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('https://lkp.dispendik.surabaya.go.id/assets/loading.gif') 50% 50% no-repeat rgb(249,249,249);
+ } 
+ th, td {
+  padding: 20px;
+ }
+ .th2, .td2 {
+  padding: 5px;
+ }
+ table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+ </style>
+</head>
+
+<body id="mainbody">
+  <div id="loader"></div>
+<!--Custom navbar &#11167; &#11166; --->
+<header class="background-info">
+  <div class="bars"><i class="fas fa-bars"></i></div>
+  <div class="logo">
+    <h3>SOKOKUU</h3>
+  </div>
+  <ul id="navbar" style="margin-top: 10px;">
+    <li><a href="index.php">HOME</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li class="drop-one">
+      <a href="#" id="productsopener">PRODUCTS <span style="font-weight: bold;color: purple;"><i class="fas fa-angle-down"></i></span></a>
+      <div class="menu-one" id="menu1">
+
+        <ul>
+          <li><h6>ELECTRONICS</h6></li>
+          <li><a href="electronicfiles/electronics1.php">All</a></li>
+          <li><a href="electronicfiles/.php">Laptops</a></li>
+          <li><a href="electronicfiles/.php">Desktops</a></li>
+          <li><a href="electronicfiles/.php">TVs</a></li>
+          <li><a href="electronicfiles/.php">Phones</a></li>
+          <li><a href="electronicfiles/.php">Tablets</a></li>
+          <li><a href="electronicfiles/.php">Audio and video equipments</a></li>
+          <li><a href="electronicfiles/.php">Printers</a></li>
+          <li><a href="electronicfiles/.php">Cameras</a></li>
+          <li><a href="electronicfiles/.php">Projectors</a></li>
+          <li><a href="electronicfiles/.php">Computer Accessories</a></li>
+          <li><a href="electronicfiles/.php">Phone Accessories</a></li>
+          <li><a href="electronicfiles/.php">Others</a></li>
+        </ul>
+          <ul>
+          <li><h6>VEHICLES</h6></li>
+          <li><a href="vehicles/allvehicles.php">All</a></li>
+          <li><a href="vehicles/cars.php">Cars</a></li>
+          <li><a href="vehicles/trucks.php">Trucks & Trailers</a></li>
+          <li><a href="vehicles/buses.php">Vans,Buses & MiniBuses</a></li>
+          <li><a href="vehicles/motorcycles.php">MotorCycles & Tuktuks </a></li>
+          <li><a href="vehicles/carparts.php">Car parts & Accessories</a></li>
+        </ul>
+          <ul>
+          <li><h6>PROPERTY SALES & RENTALS</h6></li>
+          <li><a href="properties/allproperties.php">All</a></li>
+          <li><a href="properties/housesforsale.php">Houses & Apartments for Sale</a></li>
+          <li><a href="properties/housesforrent.php">Houses & Apartments for Rent</a></li>
+          <li><a href="properties/landsforsale.php">Land & Plots for Sale</a></li>
+          <li><a href="properties/landsforrent.php">Land & plots for Rent</a></li>
+          <li><a href="properties/commercialsforsale.php">Commercial Property for Sale</a></li>
+          <li><a href="properties/commercialsforrent.php">Commercial Property for Rent</a></li>
+          <li><a href="properties/bedsitters.php">Bedsitters & Rooms for Sale</a></li>
+          <li><a href="properties/eventcentres.php">Event Centres,Venues & workstations</a></li>
+        </ul>
+          <ul>
+          <li><h6>HOUSEHOLD</h6></li>
+          <li><a href="households/allhouseholds.php">All</a></li>
+          <li><a href="households/furnitures.php">Furnitures</a></li>
+          <li><a href="households/beddings.php">Beddings</a></li>
+          <li><a href="households/fridges.php">Fridges</a></li>
+          <li><a href="households/utensils.php">Utensils</a></li>
+          <li><a href="households/otherhouseholds.php">More</a></li>
+        </ul>
+        <ul>
+          <li><h6>BUILDING & CONSTRUCTION</h6></li>
+          <li><a href="buildings/allbuildings.php">All</a></li>
+          <li><a href="buildings/buildingmaterials.php">Building Materials</a></li>
+          <li><a href="buildings/fencingmaterials.php">Fencing Materials</a></li>
+          <li><a href="buildings/roofings.php">Roofing Materials</a></li>
+          <li><a href="buildings/plumbingmaterials.php">Plumbing Materials</a></li>
+          <li><a href="buildings/paints.php">Paints</a></li>
+          <li><a href="buildings/otherbuildings.php">More</a></li>
+        </ul>
+          <ul>
+          <li><h6>ENERGY</h6></li>
+          <li><a href="energy/allenergysupplies.php">All</a></li>
+          <li><a href="energy/batteries.php">Batteries</a></li>
+          <li><a href="energy/solars.php">Solar Panels</a></li>
+          <li><a href="energy/gases.php">Gas</a></li>
+          <li><a href="energy/jikos.php">Jikos</a></li>
+          <li><a href="energy/generators.php">Generators</a></li>
+          <li><a href="energy/otherenergysupplies.php">More</a></li>
+        </ul>
+          <ul>
+          <li><h6>FASHIONS & Beauty</h6></li>
+          <li><a href="fashions/allfashions.php">All</a></li>
+          <li><a href="fashions/bags.php">Bags</a></li>
+          <li><a href="fashions/shoes.php">Shoes</a></li>
+          <li><a href="fashions/clothings.php">Clothing</a></li>
+          <li><a href="fashions/jewelleries.php">Jewelleries & Garments</a></li>
+          <li><a href="fashions/costimestics.php">Costimestics</a></li>
+          <li><a href="fashions/watches.php">Watches</a></li>
+          <li><a href="fashions/otherfashion.php">More</a></li>
+        </ul>
+        <!---   <ul>
+          <li><h6>HEALTH & HYGIENE</h6></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul> --->
+          <ul>
+          <li><h6>Industrial & Engineering Machinery & Equipments</h6></li>
+          <li><a href="machines/allmachines.php">All</a></li>
+          <li><a href="machines/constructionmachines.php">Construction Machines</a></li>
+          <li><a href="machines/industrialplants.php">Industrial Plants & Machinery</a></li>
+          <li><a href="machines/miningmachines.php">Mining Machinery</a></li>
+          <li><a href="machines/waterdrillers.php">Water Drilling Machines</a></li>
+          <li><a href="machines/othermachines.php">More</a></li>
+        </ul>
+          <ul>
+          <li><h6>AGRICULTURE AND FARM SUPPLIES</h6></li>
+          <li><a href="agriculture/allagriculture.php">All</a></li>
+          <li><a href="agriculture/farmmachineries.php">Farm Machinery</a></li>
+          <li><a href="agriculture/farmtools.php">Farm tools</a></li>
+          <li><a href="agriculture/poultryequipments.php">Poultry Equipments</a></li>
+          <li><a href="agriculture/poultryfeeds.php">Poultry Feeds</a></li>
+          <li><a href="agriculture/seeds.php">Seeds & Seedlings</a></li>
+          <li><a href="agriculture/agrochemicals.php">Agrochemicals</a></li>
+          <li><a href="agriculture/fertilizers.php">Fertilizers</a></li>
+          <li><a href="agriculture/farmproduces.php">Farm Produce</a></li>
+          <li><a href="agriculture/animals.php">Animals</a></li>
+          <li><a href="agriculture/otheragricultures.php">More</a></li>
+        </ul>
+         <ul>
+          <li><h6>SOFTWARES & PROGRAMS</h6></li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">POS</a></li>
+          <li><a href="#">Ecommerce Sites</a></li>
+          <li><a href="#">Websites</a></li>
+          <li><a href="#">Android Apps</a></li>
+        </ul>
+        <!---  <ul>
+          <li><h6>JOBS</h6></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+         <ul>
+          <li><h6>SERVICES</h6></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul> --->
+      </div>
+    </li>
+    <li><a href="#"><i class="fas fa-phone"></i>&nbsp;CONTACTS</a></li>
+    <li class="drop-two">
+      <a href="#">OUR SERVICES <span><i class="fas fa-angle-down"></i></span></a>
+      <ul class="menu-two">
+        <li><a href="#">Classified Marketing</a></li>
+        <li><a href="#">Digital Marketing</a></li>
+        <li><a href="#">Business Softwares</a></li>
+        <li><a href="#">Bulk SMS</a></li>
+        <li><a href="#">Bulk Email</a></li>
+      </ul>
+    </li>
+    <li><a href="shop-login.php">SIGN IN</a></li>
+  </ul>
+</header>
+  <div class="searchcontainer" style="margin-top: 0;">
+  <h5>Connecting Buyers and Sellers</h5>
+  <form class="searchform">
+    <input type="text" name="productsearch" placeholder="Type here to search" class="searchfield"><span class="searchicon"><a href=""><i class="fas fa-search"></i></a></span>
+  </form>
+</div>
+  <section>
+    <div class="container">
+      <h3 class="text-success text-center">OUR PREMIUM SERVICES</h3>
+        <p>We offer a number of premium services that help our customers reach a wider audience and boost their sales. Some are specific to the products while others are for specific to businesses.</p>
+        <h4 class="text-info text-center">ADS SPECIFIC PREMIUM</h4>
+        <p>We have four packages for this some of which may not apply to all Categories</p>
+        <div class="row" style="text-align: center;">
+          <table style="overflow-x: auto;">
+            <tr style="background-color: #66ff66;">
+              <th>Package</th>
+              <th>Categories Applicable</th>
+              <th>Priority in Ranking</th>
+              <th>Services</th>
+              <th>14 Days Price</th>
+              <th>30 Days Price</th>
+            </tr>
+            <tr style="background-color: #f2f2f2;">
+              <td>Standard/Free</td>
+              <td>
+                <ol type="i">
+                  <li>Electronics</li>
+                  <li>Fashions & Beauty</li>
+                  <li>Builiding & Construction</li>
+                  <li>Agriculture & Farm Supplies</li>
+                  <li>Household Supplies</li>
+                  <li>Services</li>
+                </ol>
+              </td>
+              <td>Low</td>
+              <td>
+                
+              </td>
+              <td>
+                <ol type="1">
+                  <li style="display: flex;">
+                    <table id="table2">
+                      <tr>
+                        <th class="th2">Category</th>
+                        <th class="th2">Price</th>
+                      </tr>
+                      <tr>
+                        <td class="td2">Electronics</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Building & Construction Materials</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Agriculture & Farm Supplies</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Fashion & Beauty</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Household Supplies</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Services</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                    </table>
+                  </li>
+                </ol>
+              </td>
+              <td>
+                <ol type="1">
+                  <li style="display: flex;">
+                    <table id="table2">
+                      <tr>
+                        <th class="th2">Category</th>
+                        <th class="th2">Price</th>
+                      </tr>
+                      <tr>
+                        <td class="td2">Electronics</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Building & Construction Materials</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Agriculture & Farm Supplies</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Fashion & Beauty</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Household Supplies</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Services</td>
+                        <td class="td2">Free</td>
+                      </tr>
+                    </table>
+                  </li>
+                </ol>
+              </td>
+            </tr>
+  
+        
+            <tr style="background-color: #ffffe6;">
+              <td>Copper</td>
+              <td>
+                <ol type="i">
+                  <li>Vehicles</li>
+                  <li>Properties</li>
+                  <li>Industrial, Engineering Machinery & Equipments</li>
+                  <li>Electronics</li>
+                  <li>Fashions & Beauty</li>
+                  <li>Builiding & Construction</li>
+                  <li>Agriculture & Farm Supplies</li>
+                  <li>Energy Supplies</li>
+                  <li>Household Supplies</li>
+                  <li>Services</li>
+                  <li>Jobs</li>
+                </ol>
+              </td>
+              <td>High</td>
+              <td>
+                <ol>
+                  <li>High Priority In search results</li>
+                  <li>Higher level in category the List</li>
+                </ol>
+              </td>
+              <td>
+                <ol type="1">
+                  <li style="display: flex;">
+                    <table id="table2">
+                      <tr>
+                        <th class="th2">Category</th>
+                        <th class="th2">Price</th>
+                      </tr>
+                      <tr>
+                        <td class="td2">Vehicles</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Properties</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Industrial, Engineering Machinery & Equipments</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Electronics</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Building & Construction Materials</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Agriculture & Farm Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Energy Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Household Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Fashion & Beauty</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Services</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Jobs</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                    </table>
+                  </li>
+                </ol>
+              </td>
+              <td>
+                <ol type="1">
+                  <li style="display: flex;">
+                    <table id="table2">
+                      <tr>
+                        <th class="th2">Category</th>
+                        <th class="th2">Price</th>
+                      </tr>
+                      <tr>
+                        <td class="td2">Vehicles</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Properties</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Industrial, Engineering Machinery & Equipments</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Electronics</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Building & Construction Materials</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Agriculture & Farm Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Energy Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Household Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Fashion & Beauty</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Services</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Jobs</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                    </table>
+                  </li>
+                </ol>
+              </td>
+            </tr>
+
+
+            <tr style="background-color: #b3b3b3;">
+              <td>Silver</td>
+               <td>
+                <ol type="i">
+                  <li>Vehicles</li>
+                  <li>Properties</li>
+                  <li>Industrial, Engineering Machinery & Equipments</li>
+                  <li>Electronics</li>
+                  <li>Fashions & Beauty</li>
+                  <li>Builiding & Construction</li>
+                  <li>Agriculture & Farm Supplies</li>
+                  <li>Energy Supplies</li>
+                  <li>Household Supplies</li>
+                  <li>Services</li>
+                  <li>Jobs</li>
+                </ol>
+              </td>
+              <td>Very High</td>
+              <td>
+                <ol>
+                  <li>Very high priority in search results</li>
+                  <li>Very high level in category listing</li>
+                  <li>Social media icon link inclusion for sharing the product in media social media through your account dashboard</li>
+                  <li>Social media icon link inclusion for sharing of the product by other people who get to see it.</li>
+                  <li>Email marketing to over 3000000 functional emails. This will be automatically done when you purchase this package.</li>
+                  <li>Your product will be listed on the homepage(The first page of this website)</li>
+                </ol>
+              </td>
+              <td>
+                <ol type="1">
+                  <li style="display: flex;">
+                    <table id="table2">
+                      <tr>
+                        <th class="th2">Category</th>
+                        <th class="th2">Price</th>
+                      </tr>
+                      <tr>
+                        <td class="td2">Vehicles</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Properties</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Industrial, Engineering Machinery & Equipments</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Electronics</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Building & Construction Materials</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Agriculture & Farm Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Energy Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Household Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Fashion & Beauty</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Services</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Jobs</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                    </table>
+                  </li>
+                </ol>
+              </td>
+              <td>
+                <ol type="1">
+                  <li style="display: flex;">
+                    <table id="table2">
+                      <tr>
+                        <th class="th2">Category</th>
+                        <th class="th2">Price</th>
+                      </tr>
+                      <tr>
+                        <td class="td2">Vehicles</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Properties</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Industrial, Engineering Machinery & Equipments</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Electronics</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Building & Construction Materials</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Agriculture & Farm Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Energy Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Household Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Fashion & Beauty</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Services</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Jobs</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                    </table>
+                  </li>
+                </ol>
+              </td>
+            </tr>
+
+
+            <tr style="background-color: #b3b3ff;">
+              <td>Diamond</td>
+               <td>
+                <ol type="i">
+                  <li>Vehicles</li>
+                  <li>Properties</li>
+                  <li>Industrial, Engineering Machinery & Equipments</li>
+                  <li>Electronics</li>
+                  <li>Fashions & Beauty</li>
+                  <li>Builiding & Construction</li>
+                  <li>Agriculture & Farm Supplies</li>
+                  <li>Energy Supplies</li>
+                  <li>Household Supplies</li>
+                  <li>Services</li>
+                  <li>Jobs</li>
+                </ol>
+              </td>
+              <td>Highest</td>
+              <td>
+                <ol>
+                  <li>Highest priority in search results</li>
+                  <li>Highest level in category listing</li>
+                  <li>Social media icon link inclusion for sharing the product in media social media through your account dashboard</li>
+                  <li>Social media icon link inclusion for sharing of the product by other people who get to see it.</li>
+                  <li>WhatsApp marketing to over 150000 registered whatsApp numbers</li>
+                  <li>Email marketing to over 5000000 functional emails. This will be automatically done when you purchase this package.</li>
+                  <li>Your product will be listed on the homepage(The first page of this website)</li>
+                  <li>Website link inclusion</li>
+                </ol>
+              </td>
+              <td>
+                <ol type="1">
+                  <li style="display: flex;">
+                    <table id="table2">
+                      <tr>
+                        <th class="th2">Category</th>
+                        <th class="th2">Price</th>
+                      </tr>
+                      <tr>
+                        <td class="td2">Vehicles</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Properties</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Industrial, Engineering Machinery & Equipments</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Electronics</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Building & Construction Materials</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Agriculture & Farm Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Energy Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Household Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Fashion & Beauty</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Services</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Jobs</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                    </table>
+                  </li>
+                </ol>
+              </td>
+              <td>
+                <ol type="1">
+                  <li style="display: flex;">
+                    <table id="table2">
+                      <tr>
+                        <th class="th2">Category</th>
+                        <th class="th2">Price</th>
+                      </tr>
+                      <tr>
+                        <td class="td2">Vehicles</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Properties</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Industrial, Engineering Machinery & Equipments</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Electronics</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Building & Construction Materials</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Agriculture & Farm Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Energy Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Household Supplies</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Fashion & Beauty</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Services</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Jobs</td>
+                        <td class="td2">Ksh.</td>
+                      </tr>
+                    </table>
+                  </li>
+                </ol>
+              </td>
+            </tr>
+          </table>
+
+      </div>
+    </div>
+  </section>
+<script type="text/javascript" src="js2/jquery.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="fontawe/js/all.min.js"></script>
+<script type="text/javascript">
+  var counter = 1;
+  setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if (counter > 4){
+      counter = 1;
+    }
+  }, 5000);
+</script>
+<script type="text/javascript">
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                  "body").style.visibility = "hidden";
+                document.querySelector(
+                  "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                  "#loader").style.display = "none";
+                document.querySelector(
+                  "body").style.visibility = "visible";
+            }
+        };
+    </script>
+<script type="text/javascript">
+ $(document).ready(function(){
+    $("#h1").click(function(){
+    $("#tab1").show(1000);
+    $("#tab2").hide();
+    $("#tab3").hide();
+    $("#tab4").hide();
+    $("#h1").css("background-color","#008000");
+    $("#h2").css("background-color","");
+    $("#h3").css("background-color",""); 
+    $("#h4").css("background-color","");     
+  });
+    $("#h2").click(function(){
+    $("#tab1").hide();
+    $("#tab2").show(1000);
+    $("#tab3").hide();
+    $("#tab4").hide();
+    $("#h1").css("background-color","");
+    $("#h2").css("background-color","#008000");
+    $("#h3").css("background-color",""); 
+    $("#h4").css("background-color","");    
+  });
+    $("#h3").click(function(){
+    $("#tab1").hide();
+    $("#tab2").hide();
+    $("#tab3").show(1000);
+    $("#tab4").hide();
+    $("#h1").css("background-color","");
+    $("#h2").css("background-color","");
+    $("#h3").css("background-color","#008000"); 
+    $("#h4").css("background-color","");    
+  });
+    $("#h4").click(function(){
+    $("#tab1").hide();
+    $("#tab2").hide();
+    $("#tab3").hide();
+    $("#tab4").show(1000);
+    $("#h1").css("background-color","");
+    $("#h2").css("background-color","");
+    $("#h3").css("background-color",""); 
+    $("#h4").css("background-color","#008000");   
+  });
+     fetchfeaturedadds();
+    function fetchfeaturedadds(){
+      $.ajax({
+        url: 'php/action.php',
+        method: 'post',
+        data: { action: 'fetchfeaturedadds' },
+        success:function(response){
+          $(".parent").html(response);
+          
+        }
+      });
+    }
+ }); 
+</script>
+
+<script type="text/javascript">
+    const productsopener = document.querySelector('#productsopener');
+    const menu1 = document.querySelector('#menu1');
+    productsopener.addEventListener('mouseout', ()=>{
+      menu1.style.display = "none";
+    })
+
+  /*  const productsopener = document.querySelector('#productsopener');
+    const menu1 = document.querySelector('#menu1');
+    productsopener.addEventListener('click', ()=>{
+      menu1.style.display = "block";
+    })
+</script>
+
+<script type="text/javascript">
+  const subscribe = document.getElementById("submodal");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+  if ((document.bodyscrollTop >=2200) && (document.bodyscrollTop <=2700) ||( document.documentElement.scrollTop >= 2200) && ( document.documentElement.scrollTop <= 2700)) {
+    subscribe.style.display = "block";
+  }else{
+    subscribe.style.display = "none";
+  }
+  }
+</script>
+<script type="text/javascript">
+  function topFunction() {
+    $("html, body").animate(
+      { scrollTop: "0" }, 1000);
+  }
+</script>
+<script type="text/javascript">
+  const bars = document.querySelector('.bars');
+  const navbar = document.querySelector('#navbar');
+  bars.addEventListener('click', ()=>{
+    navbar.classList.toggle('active');
+    bars.classList.toggle('rotate');
+  })
+</script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

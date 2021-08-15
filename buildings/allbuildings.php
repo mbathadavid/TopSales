@@ -1,0 +1,1 @@
+allbuildings.php

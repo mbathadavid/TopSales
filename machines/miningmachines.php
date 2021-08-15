@@ -1,0 +1,1 @@
+miningmachines.php
